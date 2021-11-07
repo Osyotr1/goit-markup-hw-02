@@ -30,9 +30,6 @@
     font-family: Roboto, sans-serif;
 }
 
-.current {
-    color: yellow;
-}
 
 /*----------------------------- header------------------------------------ */
 
@@ -54,11 +51,17 @@
     color: var(--header-link-color);
 }
 
+.current {
+    color: var(--pseudo-class-color)
+}
+
 .header-link:hover,
 .header-link:focus,
 .header-link:active {
     color: var(--pseudo-class-color);
 }
+
+
 
 .header-con {
     font-weight: 500;
