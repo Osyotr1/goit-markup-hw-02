@@ -12,6 +12,10 @@
     --third-title-color: #212121;
     --main-text-color: #757575;
     --address-color: rgba(255, 255, 255, 1);
+    --filter-btn-color: #212121;
+    --filter-btn-bg: #F5F4FA;
+    --pseudo-class-color: #2196F3;
+    --pseudo-class-txt-color: #ffffff;
 }
 
 .list {
@@ -26,6 +30,10 @@
     font-family: Roboto, sans-serif;
 }
 
+.current {
+    color: var(--pseudo-class-color);
+}
+
 /*----------------------------- header------------------------------------ */
 
 .header-logo {
@@ -35,7 +43,7 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--header-logo-color)
+    color: var(--header-logo-color);
 }
 
 .header-link {
@@ -43,7 +51,13 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--header-link-color)
+    color: var(--header-link-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+    color: var(--pseudo-class-color);
 }
 
 .header-con {
@@ -51,10 +65,21 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--header-contacts-color)
+    color: var(--header-contacts-color);
 }
 
-/* -----------------------------------hero ---------------------------------- */
+.header-con:hover,
+.header-con:focus,                                      
+.header-con:active {
+    color: var(--pseudo-class-color);
+}
+
+
+
+
+/*----------------------------------- Page 1--------------------------------------- */
+
+/* -----------------------------------hero page 1---------------------------------- */
 
 .main-title {
     font-weight: 900;
@@ -67,7 +92,7 @@
 }
 
 .hero {
-     background-color: var(--hero-bg-color)
+     background-color: var(--hero-bg-color);
 }
 
 .main-btn {
@@ -79,10 +104,17 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: #ffffff;
-    background-color: var(--button-bg-color)
+    background-color: var(--button-bg-color);
 }
 
-/* -----------------------------------main ---------------------------------- */
+.main-btn:hover,
+.main-btn:focus,
+.main-btn:active {
+    color: var(--filter-btn-color);
+    background-color: var(--filter-btn-bg);
+}
+
+/* -----------------------------------main page 1 ---------------------------------- */
 
 .specials-title {
     font-weight: bold;
@@ -101,7 +133,18 @@
     color: var(--main-text-color);
 }
 
-/* -----------------------------------work ---------------------------------- */
+.specs {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* -----------------------------------work page 1 ---------------------------------- */
 
 .work-title {
     font-weight: bold;
@@ -112,7 +155,7 @@
     color: var(--second-title-color);
 }
 
-/*------------------------------------team----------------------------------  */
+/*------------------------------------ team page 1----------------------------------  */
 
 .members {
     font-weight: bold;
@@ -141,6 +184,80 @@
     color: var(--main-text-color);
 }
 
+
+
+
+
+/*------------------------------------- Page 2 -----------------------------------------*/
+
+.filter {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}  
+
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--filter-btn-color);
+    background-color: var(--filter-btn-bg);
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    color: var(--pseudo-class-txt-color);
+    background-color: var(--pseudo-class-color);
+}
+
+.pic-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--third-title-color);
+}
+
+.pic-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------------------------- footer -------------------------------------- */
 
 .footer {
@@ -161,11 +278,21 @@
     color: var(--address-color);
 }
 
+.address:hover, 
+.address:focus, 
+.address:active {
+    color: var(--pseudo-class-color);
+}
+
 .footer-con {
     color: var(--footer-contacts-color);
 }
 
-
+.footer-con:hover, 
+.footer-con:focus, 
+.footer-con:active {
+    color: var(--pseudo-class-color);
+}
 
 
 
