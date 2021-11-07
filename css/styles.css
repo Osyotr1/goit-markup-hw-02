@@ -44,7 +44,6 @@
 
 .header-logo {
     font-family: Raleway;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -199,7 +198,13 @@
 
 
 
+
+
 /*------------------------------------- Page 2 -----------------------------------------*/
+
+
+
+/*------------------------------------- buttons page2 --------------------------------------- */
 
 .filter {
     position: absolute;
@@ -229,6 +234,10 @@
     background-color: var(--pseudo-class-color);
 }
 
+
+/*------------------------------------ portfolio page2 -------------------------------------------*/
+
+
 .pic-title {
     font-weight: bold;
     font-size: 18px;
@@ -244,21 +253,6 @@
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
