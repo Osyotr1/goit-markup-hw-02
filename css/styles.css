@@ -1,6 +1,8 @@
 :root {
     --header-logo-color: #2196F3;
+    --studio-logo-color: #212121;
     --footer-logo-color: #2196F3;
+    --studio-footer-color: #ffffff;
     --header-contacts-color: #757575;
     --footer-contacts-color: rgba(255, 255, 255, 0.6);
     --header-link-color: #212121;
@@ -30,6 +32,13 @@
     font-family: Roboto, sans-serif;
 }
 
+.studio {
+    color: var(--studio-logo-color)
+}
+
+.footer-studio {
+    color: var(--studio-footer-color);
+}
 
 /*----------------------------- header------------------------------------ */
 
@@ -49,10 +58,6 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--header-link-color);
-}
-
-.current {
-    color: var(--pseudo-class-color)
 }
 
 .header-link:hover,
@@ -75,6 +80,10 @@
 .header-con:focus,                                      
 .header-con:active {
     color: var(--pseudo-class-color);
+}
+
+.current {
+    color: var(--pseudo-class-color)
 }
 
 
@@ -113,8 +122,10 @@
 .main-btn:hover,
 .main-btn:focus,
 .main-btn:active {
-    color: var(--filter-btn-color);
-    background-color: var(--filter-btn-bg);
+    color: #ffffff;
+    background-color: var(--button-bg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 /* -----------------------------------main page 1 ---------------------------------- */
@@ -276,6 +287,7 @@
 
 .address {
     color: var(--address-color);
+    font-style: normal;
 }
 
 .address:hover, 
@@ -286,6 +298,7 @@
 
 .footer-con {
     color: var(--footer-contacts-color);
+    font-style: normal;
 }
 
 .footer-con:hover, 
@@ -293,6 +306,8 @@
 .footer-con:active {
     color: var(--pseudo-class-color);
 }
+
+
 
 
 
