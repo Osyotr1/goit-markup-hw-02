@@ -161,7 +161,6 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
 }
@@ -170,7 +169,6 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--third-title-color);
 }
@@ -179,7 +177,6 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
