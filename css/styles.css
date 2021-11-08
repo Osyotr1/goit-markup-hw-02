@@ -43,7 +43,7 @@
 /*----------------------------- header------------------------------------ */
 
 .header-logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -107,7 +107,7 @@
 }
 
 .main-btn {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -272,7 +272,7 @@
 }
 
 .footer-logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;   
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -283,7 +283,7 @@
 
 .address {
     color: var(--address-color);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif; 
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
