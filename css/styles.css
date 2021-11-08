@@ -107,6 +107,8 @@
 }
 
 .main-btn {
+    font-family: Roboto;
+    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
@@ -281,7 +283,13 @@
 
 .address {
     color: var(--address-color);
+    font-family: Roboto;
     font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
 }
 
 .address:hover, 
@@ -291,8 +299,10 @@
 }
 
 .footer-con {
+    font-family: inherit;
     color: var(--footer-contacts-color);
     font-style: normal;
+    
 }
 
 .footer-con:hover, 
